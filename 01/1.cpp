@@ -20,4 +20,7 @@ public:
         cout << "V: " << v << endl;
     }
 };
-int main() {};
+int main() {
+    Car car;
+    car.print();
+};
