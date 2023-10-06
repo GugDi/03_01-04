@@ -23,4 +23,6 @@ public:
 int main() {
     Car car;
     car.print();
+    Car car2(0, 2, 2);
+    car2.print();
 };
