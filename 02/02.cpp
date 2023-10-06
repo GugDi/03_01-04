@@ -4,5 +4,9 @@ class Road {
 private:
 	int length, width;
 }
-class Car {}
+class Car {
+private:
+	double X, V;
+	int P;
+}
 int main() {};
