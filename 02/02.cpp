@@ -13,5 +13,11 @@ class Car {
 private:
 	double X, V;
 	int P;
+public:
+	Car(double newx, int newp, double newv) {
+		X = newx;
+		P = newp;
+		V = newv;
+	}
 };
 int main() {};
