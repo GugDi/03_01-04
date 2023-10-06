@@ -20,4 +20,12 @@ public:
         return y;
     }
 };
-int main() {};
+int main() {
+    cout << "Coordinates" << endl;
+    Car car(0, 0);
+    for (int i = 0; i < 7; i++) {
+        car.move();
+        cout << "X: " << car.getX() << "\t Y: " << car.getY() << endl;
+    }
+    return 0;
+}
