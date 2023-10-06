@@ -29,4 +29,10 @@ public:
 		cout << "V: " << V << endl;
 	}
 };
-int main() {};
+int main() {
+	Road road1(4, 10);
+	road1.Print();
+	Car car1(0, 2, 2);
+	car1.Print();
+	return 0;
+}
