@@ -4,6 +4,11 @@
 #include <cstdio>
 using namespace std;
 
-class TBook {};
+class TBook {
+public:
+	string Name;
+	string Author;
+	int Count;
+};
 
 int main() {};
