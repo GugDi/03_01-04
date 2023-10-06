@@ -23,5 +23,10 @@ public:
 		P = newp;
 		V = newv;
 	}
+	void Print() {
+		cout << "X: " << X << endl;
+		cout << "P: " << P << endl;
+		cout << "V: " << V << endl;
+	}
 };
 int main() {};
