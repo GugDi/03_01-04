@@ -21,8 +21,10 @@ public:
     }
 };
 int main() {
+    cout << "Before:" << endl;
     Car car;
     car.print();
+    cout << "After:" << endl;
     Car car2(0, 2, 2);
-    car2.print();
+    car2.print()
 };
