@@ -14,6 +14,10 @@ public:
         this->p = p;
         this->v = v;
     }
-
+    void print() {
+        cout << "X: " << x << endl;
+        cout << "P: " << p << endl;
+        cout << "V: " << v << endl;
+    }
 };
 int main() {};
