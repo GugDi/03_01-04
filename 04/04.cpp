@@ -27,4 +27,22 @@ int main() {
 		fin.close();
 	}
 	else return 1;
+	
+	string name;
+	cout << "Enter the name of the book: ";
+	getline(cin, name);
+	bool Thereis = false;
+	for (int i = 0; i < s; i++) {
+		if (books[i].Name == name) {
+			cout << "Name: " << books[i].Name << endl;
+			cout << "Author: " << books[i].Author << endl;
+			cout << "Count: " << books[i].Count << endl;
+			Thereis = true;
+			break;
+		}
+	}
+	if (!Thereis) {
+		cout << "Sorry, we don't have such a book!" << endl;
+	}
+
 };
