@@ -8,6 +8,10 @@ public:
 		length = newlength;
 		width = newwidth;
 	}
+	void Print() {
+		cout << "Length: " << length << endl;
+		cout << "Width: " << width << endl;
+	}
 };
 class Car {
 private:
